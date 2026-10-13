@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy policy — Maily</title>
+  <link rel="icon" href="logo-120.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+  <header class="top">
+    <img src="logo-512.png" alt="" />
+    <a class="brand" href="./">Maily</a>
+    <nav class="links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  </header>
+
+  <h1>Privacy policy</h1>
+  <p class="muted">Effective 13 October 2026</p>
+
+  <p>Maily is a desktop mail, calendar and contacts application that runs on your own computer. This policy explains what data Maily handles, where it is kept and who can see it. In short: <strong>your data stays on your computer, and the developer never receives it.</strong></p>
+
+  <h2>What Maily accesses</h2>
+  <p>Maily connects only to the accounts you add, and only to show and manage their content for you in the app:</p>
+  <ul>
+    <li><strong>Mail</strong>: messages, folders and their flags, read and changed over IMAP; messages you write, sent over SMTP.</li>
+    <li><strong>Calendars</strong>: your calendars and their events, which you can view, create, change, delete and answer invitations to.</li>
+    <li><strong>Contacts</strong>: your address books, which you can view and edit.</li>
+    <li><strong>Account settings</strong>: server addresses, your name and the e-mail address of each account.</li>
+  </ul>
+
+  <h2>Google user data</h2>
+  <p>If you sign in with Google, Maily requests these permissions:</p>
+  <ul>
+    <li><code>https://mail.google.com/</code>: to read, send, move, label and delete your Gmail messages over IMAP and SMTP, as a mail client does;</li>
+    <li><code>https://www.googleapis.com/auth/calendar</code>: to list your calendars, show their events, create, change and delete events, answer invitations and create Google Meet links when you ask;</li>
+    <li><code>https://www.googleapis.com/auth/carddav</code>: to show and edit your Google contacts.</li>
+  </ul>
+  <p>This data is used only to provide these features to you inside the app. It is stored on your computer, is not sent to the developer or to any other server, is not shared with or sold to anyone, is not used for advertising, and is not used to train any artificial intelligence or machine learning model. No person reads it.</p>
+  <p>Maily's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Where your data is kept</h2>
+  <ul>
+    <li>Copies of your messages, events and contacts are kept in a local cache in Maily's data folder on your computer (on Linux, <code>~/.local/share/com.93labs.mail</code>), so the app works quickly and offline.</li>
+    <li>Passwords and Google sign-in tokens are kept in your system's keyring (for example GNOME Keyring or KWallet), never in a plain file.</li>
+    <li>Your preferences are kept in Maily's settings folder (<code>~/.config/com.93labs.mail</code>).</li>
+    <li>An activity log of what Maily did (for example "Synced: 3 new") is kept on your computer to help you troubleshoot. It is not sent anywhere unless you copy it yourself.</li>
+  </ul>
+
+  <h2>Who Maily talks to</h2>
+  <p>Maily has no servers of its own. It connects only to:</p>
+  <ul>
+    <li>the mail, calendar and contact servers of the accounts you add (for Google: Gmail, the Google Calendar API and Google's CardDAV service; Google's sign-in page for authorization);</li>
+    <li>public configuration services, when you add an account, to find its server settings from its domain (the provider's own autoconfiguration, Mozilla's ISP database, DNS);</li>
+    <li>GitHub, to check for a new version of Maily, if updates are turned on;</li>
+    <li>web addresses you choose to open, and pictures in a message only when you ask to show them.</li>
+  </ul>
+  <p>Maily contains no analytics, tracking or advertising code.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Removing an account in Settings › Accounts deletes its cached data and its password or token from your computer. Nothing changes on the server.</li>
+    <li>You can revoke Maily's access to your Google account at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>Uninstalling Maily and deleting the folders above removes everything it stored.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Maily is not directed at children under 13 and does not knowingly collect their data.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be published on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href="mailto:feedback@93labs.com">feedback@93labs.com</a>.</p>
+
+  <footer>
+    <a href="./">Maily</a>
+    <a href="terms.html">Terms of service</a>
+  </footer>
+</main>
+</body>
+</html>
